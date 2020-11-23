@@ -1,10 +1,19 @@
 :root {
+  /* Шрифты */
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
+
+  /* Цвета шрифтов */
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+
+  /* Цвета заливки */
+  --primary-bacground: #ffffff;
+  --secondary-background: #f5f4fa;
+  --footer-bacground: #2f303a;
+  --accent-background: #2196f3;
 }
 
 body {
@@ -14,11 +23,11 @@ body {
 }
 
 header {
-  background-color: #ffffff;
+  background-color: var(--primary-bacground);
 }
 
 footer {
-  background-color: #2f303a;
+  background-color: var(--footer-bacground);
 }
 
 /* =============== COMPONENTS =============== */

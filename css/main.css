@@ -33,7 +33,7 @@
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   border: none;
-  background-color: var(--accent-color);
+  background-color: var(--accent-background);
 }
 
 /* =============== FEATURES =============== */
