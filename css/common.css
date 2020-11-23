@@ -1,0 +1,91 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+header {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+/* =============== COMPONENTS =============== */
+
+.address {
+  font-style: normal;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+/* =============== HEADER =============== */
+
+.logo-black {
+  color: #000000;
+}
+
+/* Site nav */
+
+.menu__list-link,
+.address__item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.333;
+  letter-spacing: 0.02em;
+}
+
+.menu__list-link {
+  color: var(--title-text-color);
+}
+
+.menu__list-link:hover,
+.menu__list-link:focus,
+.address__item-link:hover,
+.address__item-link:focus {
+  color: var(--accent-color);
+}
+
+.menu__list-link.current {
+  color: var(--accent-color);
+}
+
+.address__item-link {
+  color: var(--primary-text-color);
+}
+
+/* =============== FOOTER =============== */
+
+.logo-white,
+.contact-list__map {
+  color: var(--primary-white-color);
+}
+
+.contact-list__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.412;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
